@@ -1,2 +1,2 @@
-# Wakandan Translator
-  This Wankandan translator translates the alphabet to Wakandan looking alphabets.
+## Pirate Language  Translator
+  This translator translates the english words to Pirates Slangs called Lingo.
