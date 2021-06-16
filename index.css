@@ -4,12 +4,13 @@
     --color:#404040;
     --max-width:600px;
     --font-color:#E7E5E4;
-    font-family: 'Crimson Text', serif;
 
 }
 
 body{
     margin:0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
 }
 
 nav{
@@ -18,9 +19,9 @@ nav{
     padding: 1rem;
     font-size: 2rem;
     font-weight: bolder;
-    font-display:initial;
-    color:var(--font-color)
+    color:var(--font-color);
 }
+
 
 
 main{
@@ -46,8 +47,9 @@ main{
 }
 
 span{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color:lightcoral ;
+    font-family: cursive;
 }
 
 
@@ -74,13 +76,15 @@ textarea{
     min-height: 15vh;
     max-height: 15vh;
     box-sizing: border-box;
+    display:block;
+    resize: none;
     padding:1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 
 footer{
-    padding-top: 1rem;
+    padding-top: 0.7rem;
     bottom: 0;
     position: fixed;
     text-align: center;
@@ -92,13 +96,11 @@ footer{
 footer div{
     font-size: 1.4rem;
     font-weight: bold;
-    padding-bottom: 1rem;
 }
 
 footer p{
-    padding-bottom: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
     max-width: var(--max-width);
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
 
 }
